@@ -24,6 +24,8 @@ function farenheit2Celsius(){
 
 farenheit2Celsius()
 
+console.log(celsius2Farenheit(), 'and', farenheit2Celsius())
+
 
 
 
