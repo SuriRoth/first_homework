@@ -61,3 +61,7 @@ function fizzBuzz(){
 fizzBuzz()
 console.log(numbers.join('\n'))
 
+function git(){
+    console.log('Go')
+}
+
