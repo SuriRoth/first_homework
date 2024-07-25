@@ -24,5 +24,9 @@ console.log(numbers.join('\n'))
 
     console.log ('am i committed?')
 
+let j = ('my name is Suri')
+
+console.log(j)
+
 
 
