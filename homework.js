@@ -19,14 +19,24 @@ fizzBuzz()
 console.log(numbers.join('\n'))
 
 
-    console.log ('git is up')
+let numbers = [];
 
+function fizzBuzz(){
+        let iterate = 100;
+        for (let i = 1; i <= iterate; i++) {
+                if (i % 3 === 0 && i % 5 === 0) {
+                    numbers.push('FizzBuzz');
+                } else if (i % 3 === 0) {
+                    numbers.push('Fizz');
+                } else if (i % 5 === 0) {
+                    numbers.push('Buzz');
+                } else {
+                    numbers.push(i);
+                }
+            }
+        }
 
-    console.log ('am i committed?')
-
-let j = ('my name is Suri')
-
-console.log(j)
-
+fizzBuzz()
+console.log(numbers.join('\n'))
 
 
