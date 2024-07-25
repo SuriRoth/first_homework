@@ -1,33 +1,21 @@
-function celsius2Farenheit(){
+let numbers = [];
 
-    var fahrenheit = 68;
+function fizzBuzz(){
+        let iterate = 100;
+        for (let i = 1; i <= iterate; i++) {
+                if (i % 3 === 0 && i % 5 === 0) {
+                    numbers.push('FizzBuzz');
+                } else if (i % 3 === 0) {
+                    numbers.push('Fizz');
+                } else if (i % 5 === 0) {
+                    numbers.push('Buzz');
+                } else {
+                    numbers.push(i);
+                }
+            }
+        }
 
-    const celsius = (fahrenheit - 32) / 1.8;
-
-    let roundCel = Math.round(celsius);
-
-    console.log(fahrenheit + " degrees Fahrenheit is " + roundCel + " degrees Celsius.");
-}
-
-celsius2Farenheit()
-
-function farenheit2Celsius(){
-
-    var celsius = 49;
-
-    const fahrenheit = (celsius * 1.8) + 32;
-
-    let roundFahr = Math.round(fahrenheit);
-
-    console.log (celsius + ' degrees Celsius is ' + roundFahr + ' degrees Fahrenheit.');
-}
-
-farenheit2Celsius()
-
-
-
-
-
-
+fizzBuzz()
+console.log(numbers.join('\n'))
 
 
